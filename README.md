@@ -18,7 +18,7 @@ Otherwise you will get an "ERR_CERT_COMMON_NAME_INVALID" error.
 ## Hosted Files
 To load a data file into xenahub, you will need two files:
 - the TSV data file itself, eg `example.tsv`. This must not be gzipped.
-- a xena-formatted metadata file, `example.tsv.json`
+- a json-formatted metadata file, eg `example.tsv.json`. [Xena's FAQ provides details on the format](https://ucsc-xena.gitbook.io/project/local-xena-hub/loading-data-from-the-command-line).
 
 Place both of these in the`xenahub/xena/files` directory.
 Then, from the `xenahub` directory, run:
