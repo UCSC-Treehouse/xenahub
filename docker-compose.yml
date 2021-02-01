@@ -2,7 +2,7 @@ version: '2.1'
 
 services:
   xena:
-    image: ${USER}/xenahub:no-certs-0.24.0
+    image: ${USER}/xenahub:no-certs-0.25.0
     build:
       context: .
       dockerfile: Dockerfile.no-certs
