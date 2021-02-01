@@ -1,7 +1,7 @@
 build:
 	docker-compose build
 up:
-	docker-compose up -d
+	docker-compose up -d --no-recreate
 	docker-compose logs -f
 
 down:

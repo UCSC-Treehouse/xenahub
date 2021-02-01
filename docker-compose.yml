@@ -1,7 +1,7 @@
 version: '2.1'
 
 services:
-  xena:
+  xena25:
     image: ${USER}/xenahub:no-certs-0.25.0
     build:
       context: .
